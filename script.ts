@@ -9,6 +9,7 @@ const caminho_certificados: any = {
     react: 'https://storage.googleapis.com/programminghub/certificate%2F1714618326995.jpg',
     git: 'https://storage.googleapis.com/programminghub/certificate%2F1713565726368.jpg',
     ts: 'https://storage.googleapis.com/programminghub/certificate%2F1713747239561.jpg',
+    historico: 'img/historico.png',
 }
 
 function exibirCertificado(linguagem: string) {
@@ -55,3 +56,5 @@ document.getElementById('jquery-btn')?.addEventListener('click', () => oLink('jq
 document.getElementById('react-btn')?.addEventListener('click', () => oLink('react', caminho_certificados['react']));
 document.getElementById('git-btn')?.addEventListener('click', () => oLink('git', caminho_certificados['git']));
 document.getElementById('ts-btn')?.addEventListener('click', () => oLink('ts', caminho_certificados['ts']));
+document.getElementById('historico-btn')?.addEventListener('click', () => oLink('historico', caminho_certificados['historico']));
+
