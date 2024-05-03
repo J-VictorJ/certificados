@@ -1,4 +1,4 @@
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
 var caminho_certificados = {
     java: 'https://storage.googleapis.com/programminghub/certificate%2F1713558311222.jpg',
     py: 'https://storage.googleapis.com/programminghub/certificate%2F1713567366317.jpg',
@@ -11,7 +11,10 @@ var caminho_certificados = {
     git: 'https://storage.googleapis.com/programminghub/certificate%2F1713565726368.jpg',
     ts: 'https://storage.googleapis.com/programminghub/certificate%2F1713747239561.jpg',
     historico: 'img/historico.png',
-    cpp: 'https://www.udemy.com/certificate/UC-c1f6f44c-8f65-44de-9ce5-2621f5ef63fa/',
+    cpp: 'https://storage.googleapis.com/programminghub/certificate%2F1714774178807.jpg',
+    java_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714774822303.jpg',
+    mongodb: 'https://storage.googleapis.com/programminghub/certificate%2F1714775151021.jpg',
+    py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F.jpg',
 };
 function exibirCertificado(linguagem) {
     var img = document.createElement('img');
@@ -56,3 +59,6 @@ function oLink(linguagem, linkExterno) {
 (_k = document.getElementById('ts-btn')) === null || _k === void 0 ? void 0 : _k.addEventListener('click', function () { return oLink('ts', caminho_certificados['ts']); });
 (_l = document.getElementById('historico-btn')) === null || _l === void 0 ? void 0 : _l.addEventListener('click', function () { return oLink('historico', caminho_certificados['historico']); });
 (_m = document.getElementById('cpp-btn')) === null || _m === void 0 ? void 0 : _m.addEventListener('click', function () { return oLink('cpp', caminho_certificados['cpp']); });
+(_o = document.getElementById('java_poo-btn')) === null || _o === void 0 ? void 0 : _o.addEventListener('click', function () { return oLink('java_poo', caminho_certificados['java_poo']); });
+(_p = document.getElementById('mongoDB-btn')) === null || _p === void 0 ? void 0 : _p.addEventListener('click', function () { return oLink('mongodb', caminho_certificados['mongodb']); });
+(_q = document.getElementById('py_poo-btn')) === null || _q === void 0 ? void 0 : _q.addEventListener('click', function () { return oLink('py_poo', caminho_certificados['py_poo']); });
