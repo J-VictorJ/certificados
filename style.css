@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    padding: 0 5em;
+    background-color: #5845b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    width: fit-content;
+}
+
+img {
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    margin: 6em 3em 3em 3em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer img {
+    height: 430px;
+    width: 680px;
+    margin: 2em;
+}
+
+footer img:hover {
+    height: 500px;
+    width: 800px;
+    transition: 2s;
+}
+
+.ligacao {
+    background-color: #092747;
+    color: #979191;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 200px;
+        height: 120px;
+        margin: 0 0 2em 0;
+        padding: 0;
+        border: 2em;
+    }
+
+    footer img {
+        width: 350px;
+        height: 290px;
+        margin: 0;
+    }
+}
