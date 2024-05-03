@@ -10,6 +10,7 @@ var caminho_certificados = {
     react: 'https://storage.googleapis.com/programminghub/certificate%2F1714618326995.jpg',
     git: 'https://storage.googleapis.com/programminghub/certificate%2F1713565726368.jpg',
     ts: 'https://storage.googleapis.com/programminghub/certificate%2F1713747239561.jpg',
+    historico: 'img/historico.png',
 };
 function exibirCertificado(linguagem) {
     var img = document.createElement('img');
@@ -52,3 +53,4 @@ function oLink(linguagem, linkExterno) {
 (_h = document.getElementById('react-btn')) === null || _h === void 0 ? void 0 : _h.addEventListener('click', function () { return oLink('react', caminho_certificados['react']); });
 (_j = document.getElementById('git-btn')) === null || _j === void 0 ? void 0 : _j.addEventListener('click', function () { return oLink('git', caminho_certificados['git']); });
 (_k = document.getElementById('ts-btn')) === null || _k === void 0 ? void 0 : _k.addEventListener('click', function () { return oLink('ts', caminho_certificados['ts']); });
+(_l = document.getElementById('historico-btn')) === null || _l === void 0 ? void 0 : _l.addEventListener('click', function () { return oLink('historico', caminho_certificados['historico']); });
