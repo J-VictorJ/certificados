@@ -10,6 +10,7 @@ const caminho_certificados: any = {
     git: 'https://storage.googleapis.com/programminghub/certificate%2F1713565726368.jpg',
     ts: 'https://storage.googleapis.com/programminghub/certificate%2F1713747239561.jpg',
     historico: 'img/historico.png',
+    cpp: 'https://www.udemy.com/certificate/UC-c1f6f44c-8f65-44de-9ce5-2621f5ef63fa/',
 }
 
 function exibirCertificado(linguagem: string) {
@@ -56,5 +57,6 @@ document.getElementById('jquery-btn')?.addEventListener('click', () => oLink('jq
 document.getElementById('react-btn')?.addEventListener('click', () => oLink('react', caminho_certificados['react']));
 document.getElementById('git-btn')?.addEventListener('click', () => oLink('git', caminho_certificados['git']));
 document.getElementById('ts-btn')?.addEventListener('click', () => oLink('ts', caminho_certificados['ts']));
+document.getElementById('cpp-btn')?.addEventListener('click', () => oLink('cpp', caminho_certificados['cpp']));
 document.getElementById('historico-btn')?.addEventListener('click', () => oLink('historico', caminho_certificados['historico']));
 
