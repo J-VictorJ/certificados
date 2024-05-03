@@ -1,4 +1,4 @@
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, ;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
 var caminho_certificados = {
     java: 'https://storage.googleapis.com/programminghub/certificate%2F1713558311222.jpg',
     py: 'https://storage.googleapis.com/programminghub/certificate%2F1713567366317.jpg',
