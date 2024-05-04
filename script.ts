@@ -14,6 +14,7 @@ const caminho_certificados: any = {
     java_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714774822303.jpg',
     mongodb:'https://storage.googleapis.com/programminghub/certificate%2F1714775151021.jpg',
     py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714782746711.jpg',
+    ecmas: 'https://storage.googleapis.com/programminghub/certificate%2F1714833885436.jpg',
 }
 
 function exibirCertificado(linguagem: string) {
@@ -65,4 +66,5 @@ document.getElementById('cpp-btn')?.addEventListener('click', () => oLink('cpp',
 document.getElementById('java_poo-btn')?.addEventListener('click', () => oLink('java_poo', caminho_certificados['java_poo']));
 document.getElementById('mongoDB-btn')?.addEventListener('click', () => oLink('mongodb', caminho_certificados['mongodb']));
 document.getElementById('py_poo-btn')?.addEventListener('click', () => oLink('py_poo', caminho_certificados['py_poo']));
+document.getElementById('ecmas-btn')?.addEventListener('click', () => oLink('ecmas', caminho_certificados['ecmas']));
 
