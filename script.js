@@ -14,7 +14,7 @@ var caminho_certificados = {
     cpp: 'https://storage.googleapis.com/programminghub/certificate%2F1714774178807.jpg',
     java_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714774822303.jpg',
     mongodb: 'https://storage.googleapis.com/programminghub/certificate%2F1714775151021.jpg',
-    py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F.jpg',
+    py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714782746711.jpg',
 };
 function exibirCertificado(linguagem) {
     var img = document.createElement('img');
