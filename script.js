@@ -1,4 +1,4 @@
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
 var caminho_certificados = {
     java: 'https://storage.googleapis.com/programminghub/certificate%2F1713558311222.jpg',
     py: 'https://storage.googleapis.com/programminghub/certificate%2F1713567366317.jpg',
@@ -15,6 +15,7 @@ var caminho_certificados = {
     java_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714774822303.jpg',
     mongodb: 'https://storage.googleapis.com/programminghub/certificate%2F1714775151021.jpg',
     py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714782746711.jpg',
+    ecmas: 'https://storage.googleapis.com/programminghub/certificate%2F1714833885436.jpg',
 };
 function exibirCertificado(linguagem) {
     var img = document.createElement('img');
@@ -62,3 +63,4 @@ function oLink(linguagem, linkExterno) {
 (_o = document.getElementById('java_poo-btn')) === null || _o === void 0 ? void 0 : _o.addEventListener('click', function () { return oLink('java_poo', caminho_certificados['java_poo']); });
 (_p = document.getElementById('mongoDB-btn')) === null || _p === void 0 ? void 0 : _p.addEventListener('click', function () { return oLink('mongodb', caminho_certificados['mongodb']); });
 (_q = document.getElementById('py_poo-btn')) === null || _q === void 0 ? void 0 : _q.addEventListener('click', function () { return oLink('py_poo', caminho_certificados['py_poo']); });
+(_r = document.getElementById('ecmas-btn')) === null || _r === void 0 ? void 0 : _r.addEventListener('click', function () { return oLink('ecmas', caminho_certificados['ecmas']); });
