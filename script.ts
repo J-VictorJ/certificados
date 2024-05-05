@@ -15,8 +15,10 @@ const caminho_certificados: any = {
     mongodb:'https://storage.googleapis.com/programminghub/certificate%2F1714775151021.jpg',
     py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714782746711.jpg',
     ecmas: 'https://storage.googleapis.com/programminghub/certificate%2F1714833885436.jpg',
-}
+    postgre: 'https://storage.googleapis.com/programminghub/certificate%2F1714857391783.jpg',
 
+}
+const historico: string= 'https://drive.google.com/file/d/1nSa79MkSm2_c8GijR9uUE5tBefjRr1xV/view?usp=sharing';
 function exibirCertificado(linguagem: string) {
     const img = document.createElement('img');
     img.src = caminho_certificados[linguagem];
@@ -61,10 +63,11 @@ document.getElementById('jquery-btn')?.addEventListener('click', () => oLink('jq
 document.getElementById('react-btn')?.addEventListener('click', () => oLink('react', caminho_certificados['react']));
 document.getElementById('git-btn')?.addEventListener('click', () => oLink('git', caminho_certificados['git']));
 document.getElementById('ts-btn')?.addEventListener('click', () => oLink('ts', caminho_certificados['ts']));
-document.getElementById('historico-btn')?.addEventListener('click', () => oLink('historico', caminho_certificados['historico']));
+document.getElementById('historico-btn')?.addEventListener('click', () => oLink('historico', historico));
 document.getElementById('cpp-btn')?.addEventListener('click', () => oLink('cpp', caminho_certificados['cpp']));
 document.getElementById('java_poo-btn')?.addEventListener('click', () => oLink('java_poo', caminho_certificados['java_poo']));
 document.getElementById('mongoDB-btn')?.addEventListener('click', () => oLink('mongodb', caminho_certificados['mongodb']));
 document.getElementById('py_poo-btn')?.addEventListener('click', () => oLink('py_poo', caminho_certificados['py_poo']));
 document.getElementById('ecmas-btn')?.addEventListener('click', () => oLink('ecmas', caminho_certificados['ecmas']));
+document.getElementById('postgre-btn')?.addEventListener('click', () => oLink('postgre', caminho_certificados['postgre']));
 
