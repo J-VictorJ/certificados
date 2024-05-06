@@ -39,7 +39,9 @@ img {
     height: 25vh;
     margin: 6em 3em 3em 3em;
 }
-
+.logo:hover{
+    cursor: pointer;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -83,5 +85,16 @@ footer img {
         height: 35vh;
         margin: 0;
         
+    }
+    main{
+        background: rgb(9,6,119);
+        background: linear-gradient(0deg, rgba(9,6,119,1) 36%, rgba(0,212,255,1) 100%);
+    }
+    .titulo{
+        font-family: "Vidaloka", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6vh;
+        color: #1f1e1e;
     }
 }
