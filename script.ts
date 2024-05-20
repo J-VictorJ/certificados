@@ -16,7 +16,7 @@ const caminho_certificados: any = {
     py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714782746711.jpg',
     ecmas: 'https://storage.googleapis.com/programminghub/certificate%2F1714833885436.jpg',
     postgre: 'https://storage.googleapis.com/programminghub/certificate%2F1714857391783.jpg',
-
+    vue: 'https://storage.googleapis.com/programminghub/certificate%2F1716213241712.jpg',
 }
 const historico: string= 'https://drive.google.com/file/d/1nSa79MkSm2_c8GijR9uUE5tBefjRr1xV/view?usp=sharing';
 function exibirCertificado(linguagem: string) {
@@ -70,4 +70,5 @@ document.getElementById('mongoDB-btn')?.addEventListener('click', () => oLink('m
 document.getElementById('py_poo-btn')?.addEventListener('click', () => oLink('py_poo', caminho_certificados['py_poo']));
 document.getElementById('ecmas-btn')?.addEventListener('click', () => oLink('ecmas', caminho_certificados['ecmas']));
 document.getElementById('postgre-btn')?.addEventListener('click', () => oLink('postgre', caminho_certificados['postgre']));
+document.getElementById('vue-btn')?.addEventListener('click', () => oLink('vue', caminho_certificados['vue']));
 
