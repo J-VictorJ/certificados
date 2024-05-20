@@ -1,4 +1,4 @@
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t;
 var caminho_certificados = {
     java: 'https://storage.googleapis.com/programminghub/certificate%2F1713558311222.jpg',
     py: 'https://storage.googleapis.com/programminghub/certificate%2F1713567366317.jpg',
@@ -17,6 +17,7 @@ var caminho_certificados = {
     py_poo: 'https://storage.googleapis.com/programminghub/certificate%2F1714782746711.jpg',
     ecmas: 'https://storage.googleapis.com/programminghub/certificate%2F1714833885436.jpg',
     postgre: 'https://storage.googleapis.com/programminghub/certificate%2F1714857391783.jpg',
+    vue: 'https://storage.googleapis.com/programminghub/certificate%2F1716213241712.jpg',
 };
 var historico = 'https://drive.google.com/file/d/1nSa79MkSm2_c8GijR9uUE5tBefjRr1xV/view?usp=sharing';
 function exibirCertificado(linguagem) {
@@ -67,4 +68,5 @@ function oLink(linguagem, linkExterno) {
 (_q = document.getElementById('py_poo-btn')) === null || _q === void 0 ? void 0 : _q.addEventListener('click', function () { return oLink('py_poo', caminho_certificados['py_poo']); });
 (_r = document.getElementById('ecmas-btn')) === null || _r === void 0 ? void 0 : _r.addEventListener('click', function () { return oLink('ecmas', caminho_certificados['ecmas']); });
 (_s = document.getElementById('postgre-btn')) === null || _s === void 0 ? void 0 : _s.addEventListener('click', function () { return oLink('postgre', caminho_certificados['postgre']); });
+(_t = document.getElementById('vue-btn')) === null || _t === void 0 ? void 0 : _t.addEventListener('click', function () { return oLink('vue', caminho_certificados['vue']); });
 
